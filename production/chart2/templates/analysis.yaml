@@ -1,12 +1,12 @@
 apiVersion: argoproj.io/v1alpha1
 kind: AnalysisTemplate
 metadata:
-  name: success-rate01
+  name: success-rate02
 spec:
   args:
   - name: service-name
   metrics:
-  - name: success-rate01
+  - name: success-rate02
     interval: 1m
     # NOTE: prometheus queries return results in the form of a vector.
     # So it is common to access the index 0 of the returned array to obtain the value
