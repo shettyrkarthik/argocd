@@ -8,9 +8,9 @@ spec:
     canary:
       analysis:
         templates:
-        - templateName: success-rate01
+        - templateName: success-rate02
         args:
-        - name: service-name
+        - name: service-name2
           value: chart2
       canaryService: chart2-canary
       stableService: chart2
