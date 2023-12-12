@@ -10,7 +10,7 @@ spec:
         templates:
         - templateName: success-rate02
         args:
-        - name: service-name2
+        - name: service-name
           value: chart2
       canaryService: chart2-canary
       stableService: chart2
