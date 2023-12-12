@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: chart2
+  name: chart1
 spec:
   ports:
   - port: 8080
@@ -10,4 +10,4 @@ spec:
     name: http
   type: LoadBalancer
   selector:
-    app: chart2
+    app: chart1
